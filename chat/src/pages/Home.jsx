@@ -1,6 +1,8 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar"
+import Chats from '../components/Chats'
 import Chat from '../components/Chat'
+import Search from "../components/Search"
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
         <div className="container">
             <Sidebar/>
             <Chat/>
+            
+           
         </div>
     </div>
   )
